@@ -1,1 +1,31 @@
-/*Coming soon!*/
+/*html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+li {
+	display: inline;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+/*Added this because float property for #move-right was interfering with logo's
+ability to center properly*/
+img.center{
+	clear: right;
+}
+
+#move-right {
+	float: right;
+}
