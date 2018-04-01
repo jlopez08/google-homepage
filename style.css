@@ -71,12 +71,14 @@ li a:hover {
 	font-size: 16px;
 }
 
-.search:hover {
+.search:hover, .search:active {
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2)
 }
 
 #google-mic {
 	position: absolute;
+/*	top: -58px;
+	left: 800px;*/
 /*	top: 235px;
 	left: 800px;*/
 	top: 73%;
@@ -97,12 +99,22 @@ input:focus {
 .search-button {
 	background-color: #f2f2f2;
 	border: none;
-	margin-left: 4px;
-	margin-right: 4px;
+/*	margin-left: 4px;
+	margin-right: 4px;*/
 	padding: 8px 16px;
 	color: #757575;
 	font-size: 13px;
 	font-weight: bold;
+}
+
+.search-button:hover, .search-button:active {
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+button:focus{
+	outline: none;
 }
 
 /*Added this because float property for #move-right was interfering with logo's
