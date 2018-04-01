@@ -9,15 +9,15 @@
 	<!-- Top Nav Bar -->
 	<div class="top-nav">
 		<ul>
-			<li class="move-left"><a href="#">About</a></li>
+			<li class="move-left text-color"><a href="#">About</a></li>
 			<li><a href="#">Store</a></li>
 		</ul>
 
 		<ul class="move-right">
 			<li><a href="#">Gmail</a></li>
 			<li><a href="#">Images</a></li>
-			<li><a href="#">Menu Icon</a></li>
-			<li><button type="button">Sign In</button></li>
+			<li><a href="#"><img id="apps" src="img/apps.ico"></a></li>
+			<li><button id="sign-in" type="button">Sign In</button></li>
 		</ul>
 	</div>
 
@@ -27,9 +27,13 @@
 			<img class="center logo" src="img/googlelogo_color.png">
 
 		<!-- Search Bar -->
-		<form>
-			<input type="text" name="search" class="center search">
-		</form>
+		<div>
+			<form>
+				<input type="text" name="search" class="center search">
+			</form>
+			<img id="google-mic" src="img/google-mic.png">
+		</div>
+
 
 		<!-- Solution to centering buttons with div (inline-block child elements of block element/div) found here: https://teamtreehouse.com/community/why-textalign-center-aligns-not-only-text-but-also-blocks -->
 		<div class="button-center">

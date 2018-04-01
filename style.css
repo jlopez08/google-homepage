@@ -23,6 +23,33 @@ li {
 	padding-left: 15px;
 }
 
+li a, li a:visited {
+	color: rgba(0, 0, 0, 0.87);
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+	position: relative;
+	top: 8px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+}
+
+#sign-in {
+	width: 69px;
+	height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	background-color: #4285f4;
+	border: none;
+}
+
 .center {
 	display: block;
 	margin: 0 auto;
@@ -41,10 +68,26 @@ li {
 	border-radius: 2px;
 	box-shadow: 00 2px 2px 0 rgba(0,0,0,0.16);
 	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	font-size: 16px;
 }
 
 .search:hover {
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2)
+}
+
+#google-mic {
+	position: absolute;
+/*	top: 235px;
+	left: 800px;*/
+	top: 73%;
+	right: 31.5%;
+	width: 15px;
+	height: 20px;
+	z-index: 5;
+}
+
+input:focus {
+    outline: none;
 }
 
 .button-center {
