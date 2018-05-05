@@ -1,1 +1,3 @@
-*** To be completed. Work in progress... *** 
+This is an HTML/CSS project I completed as a part of The Odin Project online curriculum. The objective of this project was to practice deconstructing a webpage and then rebuilding it. For this project, I recreated the Google homepage. That page goes through constant UI changes; my recreation was that of the page at the time I undertook this project. 
+
+The main goal was to focus on how elements get placed within a page, with a secondary focus on how they get aligned and styled. I used my web browser developer tools, Chrome DevTools, in order to accomplish this project. I enjoyed the process of inspecting an existing webpage, incrementally building up a recreation of it, and continously testing those parts of it against the original webpage. 
